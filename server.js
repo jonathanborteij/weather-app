@@ -17,7 +17,7 @@ app.use('/', routes);
 app.use(cors());
 
 // Initialize the main project folder
-app.use(express.static('public/website'));
+app.use(express.static('public/webpage'));
 
 
 // Start server 
